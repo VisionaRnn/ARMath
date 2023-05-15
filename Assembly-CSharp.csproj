@@ -51,7 +51,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\control.cs" />
+     <Compile Include="Assets\Scripts\control_5_1_1_3.cs" />
+     <Compile Include="Assets\Scripts\control_5_3_1_1.cs" />
+     <Compile Include="Assets\Scripts\cube_control.cs" />
      <Compile Include="Assets\Scripts\jump.cs" />
+     <Compile Include="Assets\Scripts\move.cs" />
+     <Compile Include="Assets\Scripts\rotate.cs" />
+     <Compile Include="Assets\Scripts\sphere_control.cs" />
      <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
      <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
