@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A513BC8D-6A7D-D6C5-EEBE-D27CF600D276}</ProjectGuid>
+    <ProjectGuid>{15817E87-F721-4F11-8D1C-D4689A4FB1F1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -51,24 +51,40 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Base_Arm.cs" />
+     <Compile Include="Assets\Scripts\Clock.cs" />
+     <Compile Include="Assets\Scripts\ClockTrackableEventHandler.cs" />
      <Compile Include="Assets\Scripts\control.cs" />
      <Compile Include="Assets\Scripts\control_5_1_1_3.cs" />
      <Compile Include="Assets\Scripts\control_5_3_1_1.cs" />
+     <Compile Include="Assets\Scripts\Cube.cs" />
      <Compile Include="Assets\Scripts\cube_control.cs" />
+     <Compile Include="Assets\Scripts\CubeBuilder.cs" />
+     <Compile Include="Assets\Scripts\CvsController.cs" />
+     <Compile Include="Assets\Scripts\DragCube.cs" />
+     <Compile Include="Assets\Scripts\Hours_Arm.cs" />
+     <Compile Include="Assets\Scripts\InstanceCenter.cs" />
      <Compile Include="Assets\Scripts\jump.cs" />
+     <Compile Include="Assets\Scripts\MathUtils.cs" />
+     <Compile Include="Assets\Scripts\Minutes_Arm.cs" />
      <Compile Include="Assets\Scripts\move.cs" />
      <Compile Include="Assets\Scripts\rotate.cs" />
      <Compile Include="Assets\Scripts\sphere_control.cs" />
+     <Compile Include="Assets\Scripts\UICenter.cs" />
      <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
      <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
      <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml" />
      <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
+     <None Include="Assets\StreamingAssets\Vuforia\Clock.xml" />
      <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
+     <None Include="Assets\StreamingAssets\Vuforia\123.xml" />
      <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Object_OT.xml" />
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
      <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
+     <None Include="Assets\StreamingAssets\Vuforia\ArSmallCubes.xml" />
+     <None Include="Assets\Shaders\GaussianBlur.shader" />
      <None Include="Assets\StreamingAssets\Vuforia\FeiShu.xml" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
      <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml" />

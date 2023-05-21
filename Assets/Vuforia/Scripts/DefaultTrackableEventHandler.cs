@@ -90,6 +90,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         // Enable canvas':
         foreach (var component in canvasComponents)
             component.enabled = true;
+
+        InstanceCenter.Instance.Canvas.gameObject.SetActive(true);
     }
 
 
@@ -105,11 +107,14 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
         // Disable colliders:
         foreach (var component in colliderComponents)
+            if(component.gameObject!=gameObject)
             component.enabled = false;
 
         // Disable canvas':
         foreach (var component in canvasComponents)
             component.enabled = false;
+
+        InstanceCenter.Instance.Canvas.gameObject.SetActive(false);
     }
 
     #endregion // PROTECTED_METHODS
