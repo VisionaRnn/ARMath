@@ -11,8 +11,7 @@ public class rotate : MonoBehaviour
     }
 
     // Update is called once per frame
-	void Update()
-    {
+	void Update() {
         Vector3 angles = this.transform.localEulerAngles;
         angles.z += 0.2f;    
         this.transform.localEulerAngles=angles;

@@ -10,9 +10,8 @@ public class cube_control : MonoBehaviour {
     {
 		state = GameObject.Find("GameObject_5_1_1_3").GetComponent<control_5_1_1_3>().state;
 
-		while (Input.GetMouseButtonDown(0))
-		{
-			if(state == 2){
+		while (Input.GetMouseButtonDown(0)) {
+			if(state == 2) {
 				Instantiate(prefab, transform.position, Quaternion.identity, transform.parent);
 				GameObject.Find("GameObject_5_1_1_3").GetComponent<control_5_1_1_3>().state = 0;
 			}

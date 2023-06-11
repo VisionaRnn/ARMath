@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: ATANsbr/////AAABmfK14l44/U/bm6LPIjoew8lp29EXG+RRax+VeOVqBYzqIfxs/HyY3dbeICR3Wge4iIqSRkqlNob2ar+PfYUXii/IAh4W87u6teYj7BwtHCC1l3Cyk50As/icYj1BXY8DhfqNY6ANfcwRiBk7H18EyvbCxZx4/WrnSsbTGR+5wkcpyoZYZ2xhL4OoF02ErBpYKfVzujxqLiIWyZbErfHHavoN6mlfBgH+ta4VGfr+5RCWHOXF4eK2VXRdbL24P95bPlr/UA10BiW0tmexkf3MjlqbZj+PyqCjDR7dYZH6chtfdWO3m9FNIDq3Y/zC/hP3UUY5NL5EMg932dSKdP/t7pxbgnDv2gGIwuwF5onl+Nv1
-    ufoLicenseKey: QWFCYXJKLy8vLy8vQUFBQUtFZFJlSXloaTBzU2xQR2p6UnduOC9wQk51aUswNVV0RXYwdnJNWEs0clJreGRJTnYzY1BhdGVYT01uQ21XNmQ1N05kVXNHSURESGl4VnAwcDlDenNtdnU0NUdkZWU3MGlVZUcvNUJQQllRd3VaV0tpK0Z1UE81cjg5UjFkcUZRcWlCNThsZ1BqMVF3UitYeE5JT1kyWm9VYm45N3VqMEgvektVNnlXdFpITjlQcitmYWdnbk1hOTMrOEJUb1FNZjlYWXdGRnpTblBwTlhZdEhCMFp3NGRQL2JPWlBtc0Z5TGdMUVBKL1JyS0pHMmNMYnZjSHJUQzdNK2lCVWxnbmI0ZlZod2l0Ty94b3N2UlA2N1ExczdBV1dVQWl6U1Z5UGhwZjdNcmFWNkxETzVnZXdVaW5Qbm40M3NYNVN4QjV2YnZaNUNOelNLZHZ0dUN6OGlOM1pseVFKOXNuVTRpemE1UE5maW1hdnVlQnE=
+    vuforiaLicenseKey: ATqQGlz/////AAABmbCRFai5cEPKoCMxT0IyRt4Fo4qVovGilFEiDF/xI4/bRSN3eQRVwr0g42aOYAdXdPKIFGcMoMYf5J66AnfLCVM6cX6C/L5/tZpuE3TqgM/VqFcUAS54JPUp+/hlXpyzZlhbVSqhVlEu0nKT5PqjrCit0SqnASE5kVATOEV0ImelPdnyXp4kQUCqrjtMQNKdAXyF8ZSZQ5/5GGKpdKeffvpnLHlhLsI+0ADKmqV0w9igv7UHt7gFHa8ri3BApYI1Y80naQ6Z52UICAHB31ZyWVvpB9Y+3SlX/Uy4LbSqlehYQaOi3Yprk70XLZdWs67syHT256TWSEzoutwvaajHrup/CTxv7LyVljrsJH/f3fPH
+    ufoLicenseKey: QWFNRjNVVC8vLy8vQUFBQUtMaEJiNktkNVU5anVFMGszbkxHQ0VwcEZYOXN0UFk0ZnVNRUtUUG5iVjVtMFdoSHk5K2FrTFVNQWVYTVV6MXlzZEtQb0hPdHJPUURod2I5S3cwSlVNd280SC9meFM4SUk0ZHc2ZldqWVYrMjlBdHh6VjZZZ3hTZXd1NHB6ZjV6Q2tXb1pDWnd1cmR2M2ZGWk8yeE1TaU01dG5BNTdjdm1STVdCb1JoSURKZTNUZjF6NFNzeE8wSFRCeTZ0MkdiRkdWUVgyVlR6Umt4WENMVDRqY0RGUHNJcGY5VmRPQ0VSNUhhM0hyYnlhbGQ2aFdkMnBRMEdBNGhlUzVZbnY1UzFkWFV6aEFGRzdmU2pXQWJmZ0dveTdjMFZaVGU2MS9qU2h6cEJXN01SNzNqQ0tGWDFvWGNDNExnWFIwWm5qYjdPSk14UGNveFpqNVI2Vnd4bnBDb3pGZ1FHeHdPYWJSb29RRU1oUGpIb3V6dVI=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
@@ -44,13 +44,22 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
-    - VuforiaMars_VuMark
+    - test
+    - ArSmallCubes
+    - Clock
     - FeiShu
+    - ARmath
+    - VuforiaMars_ModelTarget
     - VuforiaMars_Images
+    - VuforiaMars_VuMark
     dataSetsToActivate:
-    - VuforiaMars_VuMark
+    - test
+    - Clock
     - FeiShu
+    - ARmath
+    - VuforiaMars_ModelTarget
     - VuforiaMars_Images
+    - VuforiaMars_VuMark
   videoBackground:
     clippingMode: 0
     numDivisions: 2
